@@ -18,8 +18,10 @@ string student::fullName()
   return firstName;
 }
 
-void student::addGrade(double grade)
+void student::addGrade(double tempgrade)
 {
+  grade = 0;
+  grade = tempgrade;
   grid.push_back(grade);
 }
 
