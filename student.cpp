@@ -20,14 +20,7 @@ string student::fullName()
 
 void student::addGrade(double grade)
 { 
-  if(grade < -1 || grade > -1)
-  {
-    grid.push_back(grade);
-  }
-  else
-  {
-    grid.push_back(0);
-  }
+  grid.push_back(grade);
 }
 
 double student::getScore()

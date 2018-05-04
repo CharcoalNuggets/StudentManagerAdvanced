@@ -12,7 +12,7 @@ class student
                 string firstName;
                 string lastName;
                 int number;
-                double grade;
+                double grade = 0;
                 double score;
                 double temporary;
                 vector<double> grid;
