@@ -5,6 +5,11 @@
 
 using namespace std;
 
+student::student()
+{
+  grade = 0;
+}
+
 void student::setName(string first, string last)
 {
   firstName = first;

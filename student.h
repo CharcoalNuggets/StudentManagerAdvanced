@@ -12,12 +12,13 @@ class student
                 string firstName;
                 string lastName;
                 int number;
-                double grade = 0;
+                double grade;
                 double score;
                 double temporary;
                 vector<double> grid;
 
         public:
+                student();
                 void setName(string, string);
                 string fullName();
                 void addGrade(double);
