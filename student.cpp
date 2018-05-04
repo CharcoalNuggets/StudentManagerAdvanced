@@ -18,14 +18,16 @@ string student::fullName()
   return firstName;
 }
 
-void student::addGrade(double tempgrade)
-{
-  grade = 0;
-  if(tempgrade > -1)
+void student::addGrade(double grade)
+{ 
+  if(grade < -1 || grade > -1)
   {
-    grade = tempgrade;
+    grid.push_back(grade);
   }
-  grid.push_back(grade);
+  else
+  {
+    grid.push_back(0);
+  }
 }
 
 double student::getScore()
