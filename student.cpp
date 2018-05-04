@@ -21,7 +21,7 @@ string student::fullName()
 void student::addGrade(double tempgrade)
 {
   grade = 0;
-  if(tempgrade < -1 || tempgrade > -1)
+  if(tempgrade > -1)
   {
     grade = tempgrade;
   }
