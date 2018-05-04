@@ -21,7 +21,10 @@ string student::fullName()
 void student::addGrade(double tempgrade)
 {
   grade = 0;
-  grade = tempgrade;
+  if(tempgrade < -1 || tempgrade > -1)
+  {
+    grade = tempgrade;
+  }
   grid.push_back(grade);
 }
 
